@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/59296cee68.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fontawesome.com/icons/mobile-screen?s=solid&f=classic">
+
+    <!-- swiper slide  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar-list">
+            <span class="navbar-link"><span class="material-icons"> phone_android </span></span>
+            <span><b>+1 324 567 8910</b></span>
+        </div>
+        <span
+            style="background-color: #ee5068; padding: 2px 10px; color: white; box-shadow: 5px 100px 10px 0px #ffffff">Make
+            An Appointment</span>
+    </div>
+
+    <!-- navigation bar -->
+    <div class="navdiv">
+        <nav class="navbar navbar-expand-sm bg-white">
+            <div class="container-sm">
+                <label>
+                    <a class="navbar-brand" href="#" style="font-size: 30px; color: #ee5068;">E-Hospital</a>
+                </label>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar" style="width: 60px; text-align: center;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">About
+                                Us</a>
+                            <ul class="dropdown-menu" >
+                                <li><a href="#" class="dropdown-item">WHAT WE DO</a></li>
+                                <li><a href="#" class="dropdown-item">OUR HISTORY</a></li>
+                                <li><a href="#" class="dropdown-item">OUR LEADERSHIP</a></li>
+                                <li><a href="#" class="dropdown-item">PRESS ABOUT US</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Team</a>
+                        </li>
+                        <!-- <div id="menu"> -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button"
+                                data-bs-toggle="dropdown">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Gastro</a></li>
+                                <li><a href="#" class="dropdown-item">Dental</a></li>
+                                <li><a href="#" class="dropdown-item">Cancer</a></li>
+                                <li><a href="#" class="dropdown-item">Diet</a></li>
+                            </ul>
+                        </li>
+                    <!-- </div> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="asset 1.jpeg" alt="" class="d-block" style="width:100%;">
+            </div>
+            <div class="carousel-item active">
+                <img src="asset 2.jpeg" alt="" class="d-block" style="width:100%; position: relative;">
+                <div class="except_Text text-secondary">
+                    <h4><span style="color: #ee5068;">Exceptional</span> technology. ExtraordinaryCare!</h4>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="asset 3.jpeg" alt="" class="d-block" style="width:100%;">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Medical Bootstrap Theme -->
+    <div class="mTheme">
+        <h3 style="color: #ee5068;">Medical Bootstrap Theme</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum exercitationem
+            laborum unde a repudiandae voluptates. <br>Totam reiciendis maiores ab quibusdam.</p>
+    </div>
+
+    <div id="about">
+        <div class="about">
+            <span class="material-icons icons">
+                local_drink
+            </span>
+            <h6><b>SPECIAL CARE</b></h5>
+                <P class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, deserunt.</P>
+        </div>
+        <div class="about">
+            <span class="material-icons icons">
+                person
+            </span>
+            <h6><b>ON-LINE SUPPORT</b></h5>
+                <P class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, deserunt.</P>
+        </div>
+        <div class="about">
+            <span class="material-icons icons">
+                energy_savings_leaf
+            </span>
+            <h6><b>MEDICAL CONSULTATION</b></h5>
+                <P class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, deserunt.</P>
+        </div>
+        <div class="about">
+            <span class="material-icons icons">
+                call
+            </span>
+            <h6><b>EMERGENCY SERVICES</b></h5>
+                <P class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, deserunt.</P>
+        </div>
+    </div>
+
+    <div style="margin: 60px 0px;" class="d-flex flex-wrap justify-content-center">
+        <a href="#services"><button class="more_about"> More About Our Services
+            <span class="material-icons" style="position: absolute; top: 22%; padding-left: 0.5em;">arrow_forward</span>
+        </button></a>
+    </div>
+
+    <!-- doctors information -->
+    <div style="text-align: center; background-color: rgb(240, 244, 245);">
+        <span class="material-icons" style="color: #ee5068; font-size: 50px; padding-top: 100px;">school</span>
+        <h4 style="color: #ee5068;">Meet Our <b>Specialist</b></h4>
+        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Necessitatibus, sed minus obcaecati neque <br>dolores est fugiat provident tempore ipsa voluptas.</p>
+        <!-- Specialist card -->
+        <div class="specialist_card">
+            <div class="card rounded-0 border-0 card_1">
+                <img class="card-img-top rounded-0" src="asset 4.jpeg" alt="asset 4" style="width:100%">
+                <div class="card-body" style="background-color: rgb(240, 244, 245);">
+                    <h5 class="card-title"><b>Dr.Lorem</b></h5>
+                    <p class="card-text" style="color: #ee5068">Gastro Specialist</p>
+                    <a href="https://www.facebook.com/login/" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-facebook-f" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-twitter" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-linkedin-in" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                </div>
+            </div>
+
+            <div class="card rounded-0 border-0 card_1">
+                <img class="card-img-top rounded-0" src="asset 5.jpeg" alt="asset 5" style="width:100%">
+                <div class="card-body" style="background-color:rgb(240, 244, 245)">
+                    <h5 class="card-title"><b>Dr.Ipsum</b></h5>
+                    <p class="card-text" style="color: #ee5068">Cancer Specialist</p>
+                    <a href="https://www.facebook.com/login/" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-facebook-f" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-twitter" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-linkedin-in" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                </div>
+            </div>
+            <div class="card rounded-0 border-0 card_1">
+                <img class="card-img-top rounded-0" src="asset 6.jpeg" alt="asset 6" style="width:100%">
+                <div class="card-body" style="background-color:rgb(240, 244, 245)">
+                    <h5 class="card-title"><b>Dr.Dallar</b></h5>
+                    <p class="card-text" style="color: #ee5068">Dental Specialist</p>
+                    <a href="https://www.facebook.com/login/" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-facebook-f" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-twitter" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-linkedin-in" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                </div>
+            </div>
+            <div class="card rounded-0 border-0 card_1">
+                <img class="card-img-top rounded-0" src="asset 7.jpeg" alt="asset 7" style="width:100%">
+                <div class="card-body" style="background-color:rgb(240, 244, 245)">
+                    <h5 class="card-title"><b>Dr.Inpost</b></h5>
+                    <p class="card-text" style="color: #ee5068;">Diet Specialist</p>
+                    <a href="https://www.facebook.com/login/" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-facebook-f" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-twitter" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" style="color: rgb(65, 61, 61);">
+                        <i class="fa-brands fa-linkedin-in" style="border: 1px solid black; padding: 5px 5px; border-radius: 50%; background-color: white;
+                            width: 1.7em;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- medical department details -->
+    <div class="medical_department">
+        <section style="width: 500px;">
+            <h5><b>Video Presentation</b></h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </section>
+        <section style="width: 500px;">
+            <h5><b>Medical departments</b></h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <article>
+                <button class="accordion"><b>Primary doctors</b></button>
+                <div class="panel">
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum illo ex quos? Consequatur
+                        reprehenderit provident quam labore sed pariatur quasi, doloribus nisi vero hic omnis unde,
+                        temporibus reiciendis, dolor numquam.</p>
+                </div>
+                <button class="accordion"><b>Dental</b></button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione aliquam sit a.</p>
+                </div>
+                <button class="accordion"><b>Gastro center</b></button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam est doloribus dicta porro, 
+                    impedit animi omnis fugit magnam quos illo ipsa error! Repellendus, natus tempora?</p>
+                </div>
+                <button class="accordion"><b>Cancer center</b></button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam est doloribus dicta porro, 
+                    impedit animi omnis fugit magnam quos illo ipsa error! Repellendus, natus tempora?</p>
+                </div>
+            </article>
+        </section>
+    </div>
+   
+    <!-- what people say about us -->
+    <div class="people_opinion">
+        <span class="material-icons" style="font-size: 50px; color:#ee5068;">volume_up</span>
+        <h2 style="color:#ee5068;">What People Say <b>About Us</b></h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container_1">
+                        <div class="img_container">
+                            <img class="rounded-0 " src="asset 8.jpeg" alt="asset 8">
+                        </div>
+                        <div class="container_body">
+                            <h5 class="body-title">DONALD TRUMP</h5>
+                            <p class="body-text">Artist</p>
+                        </div>
+                        <p style="padding-bottom: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                            porro non dolore amet vero,
+                            necessitatibus
+                            <br>laboriosam officiis pariatur adipisci placeat.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container_1">
+                        <div class="img_container">
+                            <img class="rounded-0 " src="asset 9.jpeg" alt="asset 9">
+                        </div>
+                        <div class="container_body">
+                            <h5 class="body-title">George W. Bush</h5>
+                            <p class="body-text">Planner</p>
+                        </div>
+                        <p style="padding-bottom: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                            porro non dolore amet vero,
+                            necessitatibus
+                            <br>laboriosam officiis pariatur adipisci placeat.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container_1">
+                        <div class="img_container">
+                            <img class="rounded-0 " src="asset 10.jpeg" alt="asset 10">
+                        </div>
+                        <div class="container_body">
+                            <h5 class="body-title">Jacinda Ardern</h5>
+                            <p class="body-text">Manager</p>
+                        </div>
+                        <p style="padding-bottom: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                            porro non dolore amet vero,
+                            necessitatibus
+                            <br>laboriosam officiis pariatur adipisci placeat.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="swiper-button-next"></div> -->
+            <!-- <div class="swiper-button-prev"></div>-->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- special services -->
+    <div class="services">
+        <span class="material-icons" style="font-size: 65px; margin-bottom: 15px;">qr_code_2</span>
+        <h4>Special <b>Services</b></h4>
+    </div>
+    <div class="special_services">
+        <div class="card rounded-0 border-0 card_2">
+            <img class="card-img-top rounded-0" src="asset 11.jpeg" alt="asset 11" style="width:100%">
+            <div class="card-body">
+                <h6 class="card-title">Lorem ipsum dolor sit amet.</h6>
+                <small style="color: rgb(182, 175, 175); ">July 12,2015 Dr.Lorem</small>
+                <p class="card-text text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nihil consectetur inventore.</p>
+                <a href="#Dr_Lorem" style="text-decoration: none;">
+                    <p>Read more...</p>
+                </a>
+            </div>
+        </div>
+        <div class="card rounded-0 border-0 card_2">
+            <img class="card-img-top rounded-0" src="asset 12.jpeg" alt="asset 12" style="width:100%">
+            <div class="card-body">
+                <h6 class="card-title">Lorem ipsum dolor sit amet.</h6>
+                <small style="color: rgb(182, 175, 175); ">June 11,2015 Dr.Ipsum</small>
+                <p class="card-text text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nihil consectetur inventore.</p>
+                <a href="#Dr_Ipsum" style="text-decoration: none;">
+                    <p>Read more...</p>
+                </a>
+            </div>
+        </div>
+        <div class="card rounded-0 border-0 card_2">
+            <img class="card-img-top rounded-0" src="asset 13.jpeg" alt="asset 13" style="width:100%">
+            <div class="card-body">
+                <h6 class="card-title">Lorem ipsum dolor sit amet.</h6>
+                <small style="color: rgb(182, 175, 175); ">January 1,2015 Dr.Lorem</small>
+                <p class="card-text text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nihil consectetur inventore.</p>
+                <a href="#Dr_Lorem1" style="text-decoration: none;">
+                    <p>Read more...</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+    <!-- subscriber newsletter -->
+    <div class="subscriber">
+        <h5>SUBSCRIBER TO NEWSLETTER</h5>
+        <P>Lorem ipsum dolor sit amet.</P>
+        <form>
+            <input type="email" id="email" name="email" placeholder="Your email" size="30"
+                style="height: 40px; padding-left: 10px; font-size: 13px;">
+            <input type="submit" value="Subscribe" style="height: 40px; padding: 5px 16px; border: none;
+            color: white; background-color: #ee5068;">
+        </form>
+    </div>
+    <footer>
+        <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook-f" 
+        style="font-size: 25px;background-color:rgba(80, 80, 169, 0.8); color: white; padding: 5px; border-radius: 10%;
+            width: 1.6em;"></i></a>
+         <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter" 
+         style="font-size: 25px;background-color: rgb(36, 161, 210); color: white; padding: 5px; border-radius: 10%;
+             width: 1.6em;"></i></a>
+        <a href="https://accounts.google.com" target="_blank"><i class="fa-brands fa-google-plus-g" 
+        style="font-size: 25px;background-color: rgb(208, 63, 10, .9); color: white; padding: 5px; border-radius: 10%;
+            width: 1.6em;"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube" 
+        style="font-size: 25px;background-color: rgb(247, 6, 6,.9); color: white; padding: 5px; border-radius: 10%;
+            width: 1.6em;"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in" 
+        style="font-size: 25px;background-color: rgb(14, 133, 181); color: white; padding: 5px; border-radius: 10%;
+            width: 1.6em;"></i></a>
+        <p style="font-size: 10px; padding-top: 10px;">Copyright &copy; 2015. All right reserved.</p>
+    </footer>
+
+    <!-- swiper script  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2000,
+            },
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+
+                },
+                500: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+
+                },
+                900: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+
+                },
+                1024: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+
+                },
+            },
+        });
+        //  Accordion
+        let acc = document.getElementsByClassName("accordion");
+        let i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                let panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+   
+
+
+</body>
+
+</html>
